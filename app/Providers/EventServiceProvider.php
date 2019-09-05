@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Providers;
+namespace Cadastro\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Website\Events\Event' => [
-            'Website\Listeners\EventListener',
+        'Cadastro\Events\Event' => [
+            'Cadastro\Listeners\EventListener',
         ],
     ];
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Website\Providers;
+namespace Cadastro\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use Website\Auth\CustomUserProvider;
+use Cadastro\Auth\CustomUserProvider;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -14,7 +14,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Website\Model' => 'Website\Policies\ModelPolicy',
+        'Cadastro\Model' => 'Cadastro\Policies\ModelPolicy',
     ];
 
     /**

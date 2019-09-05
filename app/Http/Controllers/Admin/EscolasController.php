@@ -1,12 +1,12 @@
 <?php
 
-namespace Website\Http\Controllers\Admin;
+namespace Cadastro\Http\Controllers\Admin;
 
-use Website\Http\Controllers\Controller;
-use Website\Http\Requests\EscolaCreateRequest;
-use Website\Http\Requests\EscolaDeleteRequest;
-use Website\Http\Requests\EscolaUpdateRequest;
-use Website\Models\Escolas;
+use Cadastro\Http\Controllers\Controller;
+use Cadastro\Http\Requests\EscolaCreateRequest;
+use Cadastro\Http\Requests\EscolaDeleteRequest;
+use Cadastro\Http\Requests\EscolaUpdateRequest;
+use Cadastro\Models\Escolas;
 
 class EscolasController extends Controller
 {

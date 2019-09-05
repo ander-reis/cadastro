@@ -68,11 +68,11 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Website\Models\User::class,
+            'model' => Cadastro\Models\User::class,
         ],
         'custom-user' => [
             'driver' => 'custom-user',
-            'model' => Website\Models\User::class,
+            'model' => Cadastro\Models\User::class,
         ]
         // 'users' => [
         //     'driver' => 'database',

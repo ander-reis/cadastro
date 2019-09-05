@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => Website\User::class,
+        'model' => Cadastro\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

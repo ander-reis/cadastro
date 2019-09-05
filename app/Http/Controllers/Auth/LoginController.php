@@ -1,12 +1,12 @@
 <?php
 
-namespace Website\Http\Controllers\Auth;
+namespace Cadastro\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
-use Website\Http\Controllers\Controller;
+use Cadastro\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use Website\Http\Requests\LoginRequest;
-use Website\Models\User;
+use Cadastro\Http\Requests\LoginRequest;
+use Cadastro\Models\User;
 
 class LoginController extends Controller
 {

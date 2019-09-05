@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Http\Controllers\Auth;
+namespace Cadastro\Http\Controllers\Auth;
 
-use Website\User;
-use Website\Http\Controllers\Controller;
+use Cadastro\User;
+use Cadastro\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \Website\User
+     * @return \Cadastro\User
      */
     protected function create(array $data)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Exceptions;
+namespace Cadastro\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

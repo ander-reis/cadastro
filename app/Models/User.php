@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Models;
+namespace Cadastro\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -125,6 +125,6 @@ class User extends Authenticatable
 
     protected static $logFillable = true;
 
-    protected static $logName = 'user_website';
+    protected static $logName = 'user_cadastro';
 
 }

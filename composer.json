@@ -29,7 +29,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "Website\\": "app/"
+            "Cadastro\\": "app/"
         }
     },
     "autoload-dev": {

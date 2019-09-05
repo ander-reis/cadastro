@@ -1,13 +1,13 @@
 <?php
 
-namespace Website\Http\Controllers\Admin;
+namespace Cadastro\Http\Controllers\Admin;
 
-use Website\Http\Controllers\Controller;
-use Website\Http\Requests\CepRequest;
-use Website\Http\Requests\DadosPessoaisUpdateRequest;
-use Website\Models\CepSP;
-use Website\Models\Materia;
-use Website\Models\User;
+use Cadastro\Http\Controllers\Controller;
+use Cadastro\Http\Requests\CepRequest;
+use Cadastro\Http\Requests\DadosPessoaisUpdateRequest;
+use Cadastro\Models\CepSP;
+use Cadastro\Models\Materia;
+use Cadastro\Models\User;
 
 class DadosPessoalController extends Controller
 {

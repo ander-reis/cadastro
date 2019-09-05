@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Auth;
+namespace Cadastro\Auth;
 
 use Illuminate\Auth\EloquentUserProvider;
 use Illuminate\Contracts\Support\Arrayable;

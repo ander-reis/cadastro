@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Http\Middleware;
+namespace Cadastro\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

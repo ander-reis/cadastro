@@ -155,12 +155,12 @@ return [
         /*
          * Application Service Providers...
          */
-        Website\Providers\AppServiceProvider::class,
-        Website\Providers\AuthServiceProvider::class,
-        // Website\Providers\BroadcastServiceProvider::class,
-        Website\Providers\EventServiceProvider::class,
-        Website\Providers\RouteServiceProvider::class,
-        Website\Providers\ComposerServiceProvider::class,
+        Cadastro\Providers\AppServiceProvider::class,
+        Cadastro\Providers\AuthServiceProvider::class,
+        // Cadastro\Providers\BroadcastServiceProvider::class,
+        Cadastro\Providers\EventServiceProvider::class,
+        Cadastro\Providers\RouteServiceProvider::class,
+        Cadastro\Providers\ComposerServiceProvider::class,
 
     ],
 

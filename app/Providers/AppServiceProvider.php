@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Providers;
+namespace Cadastro\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Code\Validator\Cpf;

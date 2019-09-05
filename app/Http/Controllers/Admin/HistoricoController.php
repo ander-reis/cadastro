@@ -1,9 +1,9 @@
 <?php
 
-namespace Website\Http\Controllers\Admin;
+namespace Cadastro\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use Website\Http\Controllers\Controller;
+use Cadastro\Http\Controllers\Controller;
 
 class HistoricoController extends Controller
 {

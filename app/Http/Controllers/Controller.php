@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Http\Controllers;
+namespace Cadastro\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
