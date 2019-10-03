@@ -17,3 +17,4 @@ mix.js('resources/assets/js/app.js', 'public/js')
     .sourceMaps();
 
 mix.browserSync('cadastro.br');
+// mix.browserSync('localhost:8000');

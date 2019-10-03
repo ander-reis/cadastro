@@ -14,12 +14,7 @@ class User extends Authenticatable
     /**
      * Conexão database SINPRO
      */
-    protected $connection = 'sqlsrv-sinpro';
-
-    /**
-     * Conexão database POSTGRE
-     */
-//    protected $connection = 'pgsql';
+//    protected $connection = 'sqlsrv-sinpro';
 
     protected $table = 'Cadastro_Professores';
     protected $primaryKey = 'Codigo_Professor';

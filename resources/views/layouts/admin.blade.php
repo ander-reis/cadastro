@@ -94,11 +94,12 @@
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
 
+@toastr_css
+@toastr_js
+@toastr_render
+
 <script type="text/javascript">
     $("input[maxlength]").maxlength();
-    // setTimeout(function() {
-    //     $("#successMessage").hide('slow')
-    // }, 5000);
 </script>
 
 @stack('mask-script')
