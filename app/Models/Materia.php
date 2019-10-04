@@ -9,12 +9,33 @@ class Materia extends Model
     /**
      * Conexão database SINPRO
      */
-    protected $connection = 'sqlsrv-sinpro';
+//    protected $connection = 'sqlsrv-sinpro';
 
     /**
-     * Conexão database POSTGRE
+     * table
+     *
+     * @var string
      */
-//    protected $connection = 'pgsql';
-
     protected $table = 'Materia';
+
+    /**
+     * chave primaria
+     *
+     * @var string
+     */
+    protected $primaryKey = 'Codigo_Materia';
+
+    /**
+     * set timestamps
+     * @var bool
+     */
+    public $timestamps = false;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     */
+    protected $fillable = ['Materia'];
+
+
 }

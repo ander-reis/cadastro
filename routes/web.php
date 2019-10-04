@@ -29,6 +29,9 @@ Route::get('/home', function(){
  * rotas auth: login, logout, register, remember password
  */
 //Auth::routes();
+//Auth::routes(['verify' => true]);
+//route('password.reset', ['token' => $token]);
+
 Route::name('login')->get('/login', 'Auth\LoginController@showLoginForm');
 Route::post('/login', 'Auth\LoginController@login');
 

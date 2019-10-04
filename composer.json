@@ -9,10 +9,10 @@
         "caouecs/laravel-lang": "~3.0",
         "codeedu/code_validator": "^0.0.2",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "5.6.*",
+        "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "laravelcollective/html": "~5.5.0",
-        "spatie/laravel-activitylog": "3.2",
+        "laravelcollective/html": "^5.8",
+        "spatie/laravel-activitylog": "^3.8",
         "watson/active": "3.0",
         "yadahan/laravel-authentication-log": "^1.2",
         "yoeunes/toastr": "^1.2"

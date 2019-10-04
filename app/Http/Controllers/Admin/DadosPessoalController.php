@@ -61,10 +61,10 @@ class DadosPessoalController extends Controller
 
             toastr()->success('Cadastro alterado com sucesso!');
 
-//            return redirect()->route('admin.dados-pessoal.index')->with('message', 'Dados atualizados com sucesso');
             return redirect()->route('admin.dados-pessoal.index');
         } catch (\Exception $e) {
-            return redirect()->route('admin.dados-pessoal.index')->with('error-message', 'Não foi possível atualizar os dados' . $e->getMessage());
+            toastr()->error("Não foi possível alterar o cadastro");
+            return redirect()->route('admin.dados-pessoal.index');
         }
     }
 

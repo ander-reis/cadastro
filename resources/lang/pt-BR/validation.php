@@ -172,6 +172,13 @@ return [
         'title'                 => 'título',
         'username'              => 'usuário',
         'year'                  => 'ano',
-        'endereco'              => 'endereço'
+        'endereco'              => 'endereço',
+        'RG'                    => 'rg',
+        'Data_Aniversario'      => 'data de nascimento',
+        'Materia'               => 'matéria',
+        'Endereco'              => 'endereço',
+        'Numero'                => 'número',
+        'DDD_Telefone_Celular'  => 'ddd',
+        'Telefone_Celular'      => 'telefone celular',
     ],
 ];

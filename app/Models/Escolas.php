@@ -9,7 +9,7 @@ class Escolas extends Model
     /**
      * Conexão database SINPRO
      */
-    //protected $connection = 'sqlsrv-sinpro';
+//    protected $connection = 'sqlsrv-sinpro';
 
     //protected $table = 'tb_sinpro_escolas';
 

@@ -15,6 +15,7 @@ class EventServiceProvider extends ServiceProvider
     protected $listen = [
         'Cadastro\Events\Event' => [
             'Cadastro\Listeners\EventListener',
+            'SendEmailVerificationNotification::class',
         ],
     ];
 

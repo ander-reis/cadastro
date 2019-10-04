@@ -31,6 +31,7 @@ class DadosPessoaisUpdateRequest extends FormRequest
         return [
             'Nome' => 'required|max:100',
             'Email' => 'required|max:120',
+            'RG' => 'required|max:15',
             'Data_Aniversario' => 'required|date_format:Y-m-d',
             'Materia' => 'required',
             'Pre',

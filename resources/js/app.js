@@ -6,7 +6,7 @@
  */
 
 require('./bootstrap');
-require('./bootstrap-maxlength');
+require('./bootstrap-maxlength.js');
 require('./modals');
 require('./layout');
-require('../../../node_modules/jquery-mask-plugin/dist/jquery.mask.min.js');
+require('../../node_modules/jquery-mask-plugin/dist/jquery.mask.min.js');
