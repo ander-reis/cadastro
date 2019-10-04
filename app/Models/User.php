@@ -15,7 +15,7 @@ class User extends Authenticatable implements MustVerifyEmail
     /**
      * Conexão database SINPRO
      */
-//    protected $connection = 'sqlsrv-sinpro';
+    protected $connection = 'sqlsrv-sinpro';
 
     /**
      * table

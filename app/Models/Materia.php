@@ -9,7 +9,7 @@ class Materia extends Model
     /**
      * Conexão database SINPRO
      */
-//    protected $connection = 'sqlsrv-sinpro';
+    protected $connection = 'sqlsrv-sinpro';
 
     /**
      * table

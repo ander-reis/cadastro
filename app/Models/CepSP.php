@@ -9,7 +9,7 @@ class CepSP extends Model
     /**
      * Conexão database SINPRO
      */
-//    protected $connection = 'sqlsrv-sinpro';
+    protected $connection = 'sqlsrv-sinpro';
 
     protected $table = 'CepSP';
 
