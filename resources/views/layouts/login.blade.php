@@ -29,5 +29,16 @@
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}"></script>
+<script>
+    $(document).ready(function () {
+        var options =  {
+            onKeyPress: function(username, e, field, options) {
+                var masks = ['0000000000', '000.000.000-00'];
+                var mask = (username.length>8) ? masks[1] : masks[0];
+                $('#username').mask(mask, options);
+            }};
+        $('#username').mask('00000000000', options);
+    });
+</script>
 </body>
 </html>
