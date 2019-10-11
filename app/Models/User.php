@@ -13,11 +13,6 @@ class User extends Authenticatable implements MustVerifyEmail
     use Notifiable, LogsActivity, AuthenticationLogable;
 
     /**
-     * Conexão database SINPRO
-     */
-    protected $connection = 'sqlsrv-sinpro';
-
-    /**
      * table
      *
      * @var string

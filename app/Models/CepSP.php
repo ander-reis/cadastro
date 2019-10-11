@@ -7,14 +7,24 @@ use Illuminate\Database\Eloquent\Model;
 class CepSP extends Model
 {
     /**
-     * Conexão database SINPRO
+     * table
+     *
+     * @var string
      */
-    protected $connection = 'sqlsrv-sinpro';
-
     protected $table = 'CepSP';
 
+    /**
+     * chave primaria
+     *
+     * @var string
+     */
     protected $primaryKey = 'contador';
 
+    /**
+     * fillable
+     *
+     * @var array
+     */
     protected $fillable = [
         'Tipo',
         'Logradouro',
@@ -25,5 +35,10 @@ class CepSP extends Model
         'Cep'
     ];
 
+    /**
+     * set timestamps
+     *
+     * @var bool
+     */
     public $timestamps = false;
 }

@@ -7,11 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Materia extends Model
 {
     /**
-     * Conexão database SINPRO
-     */
-    protected $connection = 'sqlsrv-sinpro';
-
-    /**
      * table
      *
      * @var string
@@ -27,6 +22,7 @@ class Materia extends Model
 
     /**
      * set timestamps
+     *
      * @var bool
      */
     public $timestamps = false;
