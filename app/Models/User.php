@@ -35,6 +35,7 @@ class User extends Authenticatable implements MustVerifyEmail
 
     /**
      * set casts
+     *
      * @var array
      */
     protected $casts = ['Codigo_Professor' => 'string'];
