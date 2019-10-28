@@ -4,7 +4,7 @@ namespace Cadastro\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class CursoAgedamento extends Model
+class CursoAgendamento extends Model
 {
     /**
      * table

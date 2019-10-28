@@ -57,7 +57,7 @@ class CadastroCursos extends Model
      */
     public function agendamentoCursos()
     {
-        return $this->hasMany(CursoAgedamento::class, 'cur_agt_cd_curso');
+        return $this->hasMany(CursoAgendamento::class, 'cur_agt_cd_curso');
     }
 
     /**

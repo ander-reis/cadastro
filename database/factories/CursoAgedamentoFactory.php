@@ -5,7 +5,7 @@
 use Cadastro\Model;
 use Faker\Generator as Faker;
 
-$factory->define(\Cadastro\Models\CursoAgedamento::class, function (Faker $faker) {
+$factory->define(\Cadastro\Models\CursoAgendamento::class, function (Faker $faker) {
     return [
         'cur_agt_fl_situacao' => rand(0, 1),
         'cur_agt_ds_observacao' => $faker->text(100),

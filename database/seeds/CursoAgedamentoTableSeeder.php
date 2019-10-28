@@ -14,9 +14,9 @@ class CursoAgedamentoTableSeeder extends Seeder
         $professor = \Cadastro\Models\User::all();
         $cursos = \Cadastro\Models\CadastroCursos::all();
 
-        $agendamento_curso = factory(\Cadastro\Models\CursoAgedamento::class, 10)->make();
+        $agendamento_curso = factory(\Cadastro\Models\CursoAgendamento::class, 10)->make();
 
-        $agendamento_curso->each(function(\Cadastro\Models\CursoAgedamento $model) use($professor, $cursos){
+        $agendamento_curso->each(function(\Cadastro\Models\CursoAgendamento $model) use($professor, $cursos){
             $id_professor = $professor->random()->Codigo_Professor;
             $id_cursos = $cursos->random()->cur_cur_cd_curso;
             $model->cadastroCursos()->associate($id_cursos);
