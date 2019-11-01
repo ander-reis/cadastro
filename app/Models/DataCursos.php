@@ -30,7 +30,7 @@ class DataCursos extends Model
     /**
      * set created_at
      */
-    const CREATED_AT = 'cur_dt_dt_data';
+//    const CREATED_AT = 'cur_dt_dt_data';
 
     /**
      * set updated_at
@@ -49,7 +49,7 @@ class DataCursos extends Model
      *
      * @var array
      */
-    protected $dates = ['cur_dt_dt_data'];
+//    protected $dates = ['cur_dt_dt_data'];
 
 
     public function cadastroCursos()
