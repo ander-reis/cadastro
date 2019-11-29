@@ -20,5 +20,8 @@ class DatabaseSeeder extends Seeder
          $this->call(CursoAgedamentoTableSeeder::class);
          $this->call(CadastroDocenteTableSeeder::class);
          $this->call(PagamentoDocenteTableSeeder::class);
+         $this->call(CadastroAdvogadoTableSeeder::class);
+         $this->call(FichaConsultaTableSeeder::class);
+         $this->call(FichaProfessorTableSeeder::class);
     }
 }
